@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Salmon's Spirit: Finding Home - Dr. Similo Ngwenya</title>
+    <!-- We link our external CSS file here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home" class="logo">Dr. Similo Ngwenya</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links" id="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-book">The Book</a></li>
+            <li><a href="#author">The Author</a></li>
+            <li><a href="#dedication">Dedication</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Cover Hero Area -->
+    <header id="home">
+        <div class="hero-text">
+            <h1>The Salmon's Spirit:<br>finding home</h1>
+            <subtitle>By Dr. Similo Ngwenya</subtitle>
+            <p>A poignant, heartfelt reflection on identity, resilience, and the relentless pursuit of one's true place in the world. A powerful modern memoir testing the limits of survival, adaptation, and renewal.</p>
+            
+            <div class="btn-group">
+                <a href="https://amazon.co.uk" target="_blank" rel="noopener" class="btn">✨ Buy on Amazon UK</a>
+                <a href="https://amazon.com" target="_blank" rel="noopener" class="btn btn-secondary">Buy on Amazon US</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="book-mockup">
+                <p class="mockup-title">The Salmon's Spirit:<br><span class="mockup-sub">finding home</span></p>
+                <div class="mockup-icon">👤</div>
+                <p class="mockup-author">Similo Ngwenya</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Book Info Section -->
+    <section id="about-book">
+        <h2 class="section-title">About the Memoir</h2>
+        <div class="book-description">
+            <p>In <strong>The Salmon's Spirit: Finding Home</strong>, Dr. Similo Ngwenya tells a story of struggle and triumph, of a young girl growing up in the fractured landscape of a broken African home. Caught in a web of suspicion, fear, and deeply held cultural beliefs that shaped her parents' choices, she learned early on how to survive in a world that often felt senseless and unforgiving.</p>
+            <br>
+            <p>As she enters adulthood, armed with education, faith and an unyielding determination to break free from the cycles of her past, she finds herself confronting the very forces she once sought to escape. Is there a formula for survival? Or is life a journey of constant adaptation and renewal?</p>
+        </div>
+
+        <div class="epilogue-quote">
+            <p>"But more importantly, I learned that home is not always something we stumble upon; sometimes it is something we create. I found home within myself. A state of being where I felt safe, grounded and reassured that I mattered. This sense of belonging was not just about physical safety, but about reaching a place of enough..."</p>
+            <small>— Epilogue: Lessons in resilience (p. 172)</small>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section id="author">
+        <div class="author-img">
+            <img src="profile.jpg" alt="Dr. Similo Ngwenya" onerror="this.src='https://unsplash.com'">
+        </div>
+        <div class="author-text">
+            <h2 class="section-title" style="text-align: left;">Meet the Author</h2>
+            <p><strong>Dr. Similo Ngwenya</strong> is a scholar currently based in the United Kingdom. A researcher in the interdisciplinary field of science and technology studies, she holds a PhD from Stellenbosch University in South Africa.</p>
+            <br>
+            <p>She has published several articles on a range of meta-scientific topics, including science policy, inequalities in science, research collaboration, evaluation, and impact.</p>
+        </div>
+    </section>
+
+    <!-- Dedication Section -->
+    <section id="dedication">
+        <div class="dedication-box">
+            <h3>Dedications of Love</h3>
+            <p>This book is dedicated to:</p>
+            <p class="highlight-dedication"><strong>My children, Lerato and Lwandile;</strong></p>
+            <p>Sister, Sifiso;</p>
+            <p>Brothers, Sihle and Sizo;</p>
+            <p>Mama, Thenjiwe;</p>
+            <p>My late father, Pax and;</p>
+            <br>
+            <p class="memory-quote">"In loving memory of my late husband, Lizwe."</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2 class="section-title">Connect with Dr. Ngwenya</h2>
+        <div class="contact-container">
+            <form id="contact-form" action="https://formspree.io" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="_replyto" required placeholder="jane@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Write your note to the author here..."></textarea>
+                </div>
+                <button type="submit" class="btn send-btn">Send Message 🌸</button>
+            </form>
+            <div id="form-status"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Dr. Similo Ngwenya. All Rights Reserved.</p>
+        <p class="footer-quote">"Keep swimming, even when the currents of life feel too strong to bear."</p>
+    </footer>
+
+    <!-- We link our external JavaScript file here -->
+    <script src="script.js"></script>
+</body>
+</html>
